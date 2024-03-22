@@ -43,7 +43,7 @@ This repository hosts the frontend codebase of a web application developed in Re
 
 
 
-## Interacting with the Website & Utilizing the Web Application
+## Interacting with the Application
 ### Navigation
 
 ![Screenshot 2024-03-22 153139](https://github.com/SRIRAMRAJESHKUMAR/ERP-SYSTEM-BASED-ON-REACT/assets/148368517/7bcb118a-295f-4e68-b0e7-68800e0c0201)
