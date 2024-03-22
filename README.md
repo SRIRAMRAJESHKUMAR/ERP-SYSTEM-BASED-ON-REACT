@@ -1,22 +1,21 @@
-# Simplified ERP System with React Documentation
+## Documentation for Simplified ERP System with React
 
-This repository contains the front end code for a web application. The application allows users to manage products and orders and also order calendar views to see the expected delivery date of the order. It is built using React.
+This repository hosts the frontend codebase of a web application developed in React. The application facilitates users in managing products, orders, and offers calendar views for order scheduling, enabling users to visualize the expected delivery dates.
 
-## How to Run the Application
+## How to Execute the Application
 
-1. **Clone the Repository**: Clone this repository to your local machine using the following command:
-
+1.**Clone the Repository:** To clone this repository to your local machine, execute the following command:
    ```bash
    git clone <repository-url>
    ```
 
-2. **Navigate to the Project Directory**: Change your current directory to the project directory:
+2. **Change Directory to Project Directory**: Move to the directory where your project is located.
 
    ```bash
    cd ERP-system
    ```
 
-3. **Install Dependencies**: Install the required dependencies using npm or yarn:
+3. **Install Dependencies**: Utilize npm or yarn to install the necessary dependencies:
 
    ```bash
    npm install
@@ -28,7 +27,7 @@ This repository contains the front end code for a web application. The applicati
    yarn install
    ```
 
-4. **Run the Application**: Start the development server:
+4. **Launch the Application**: Initiate the development server:
 
    ```bash
    npm start
@@ -40,31 +39,29 @@ This repository contains the front end code for a web application. The applicati
    yarn start
    ```
 
-5. **Access the Application**: Once the server is running, you can access the application by opening your web browser
+5. **Launch the Application**: After starting the server, simply open your web browser to access the application.
 
 
 
-## Interaction with the Website & Usage of the Web Application
-
+## Interacting with the Website & Utilizing the Web Application
 ### Navigation
 
 ![Screenshot 2024-03-22 153139](https://github.com/SRIRAMRAJESHKUMAR/ERP-SYSTEM-BASED-ON-REACT/assets/148368517/7bcb118a-295f-4e68-b0e7-68800e0c0201)
 
 
-Use the navigation bar at the top of the page to switch between different sections of the application: Dashboard, Products, and Orders.
-
+Please utilize the navigation bar located at the top of the page to switch between various sections of the application, including Dashboard, Products, and Orders.
 
 ### DASHBOARD
 ![Screenshot 2024-03-22 150952](https://github.com/SRIRAMRAJESHKUMAR/ERP-SYSTEM-BASED-ON-REACT/assets/148368517/64ab8f94-3488-4d79-84bb-41fcc4804935)
 
-The Dashboard page provides an overview of product and order information.
+ An Overview of product and order information given in DASHBOARD
 
 ### PRODUCT PAGE
 
 ![Screenshot 2024-03-22 152214](https://github.com/SRIRAMRAJESHKUMAR/ERP-SYSTEM-BASED-ON-REACT/assets/148368517/2c09e41a-b4da-46d4-bcec-ba0a30cb97c2)
 
 
-On the Products page, you can view, add, edit, and delete products.
+On the Products page, you have the ability to view, add, edit, and delete products.
 
 
 ### Editing a Product
@@ -73,36 +70,33 @@ On the Products page, you can view, add, edit, and delete products.
 
 
 
-To edit a product, click on the "Edit" button next to the product you want to edit. Update the information and click "Save".
+To modify a product, select the "Edit" button adjacent to the item you wish to update. Amend the details as needed, then finalize by selecting "Save".
 
 ### Adding a New Product
 
 ![Screenshot 2024-03-22 152724](https://github.com/SRIRAMRAJESHKUMAR/ERP-SYSTEM-BASED-ON-REACT/assets/148368517/02ca0132-7962-468a-8512-6cd445b8a965)
 
-To add a new product, click on the "Add Product" button, fill in the required fields, and click "Save".
-
+To introduce a new product, simply select the "Add Product" button, complete the necessary fields, and then press "Save" to finalize.
 ### ORDER PAGE
 
 ![Screenshot 2024-03-22 152832](https://github.com/SRIRAMRAJESHKUMAR/ERP-SYSTEM-BASED-ON-REACT/assets/148368517/c9cf8ba8-8fba-48d2-97fe-b0ce4e237cbd)
 
 
-On the Orders page, you can view order details, update order status, and delete orders.
+On the Orders page, you have the capability to access order details, modify order status, and remove orders as needed.
 
 ### Viewing Order Details
 
 ![Screenshot 2024-03-22 152913](https://github.com/SRIRAMRAJESHKUMAR/ERP-SYSTEM-BASED-ON-REACT/assets/148368517/89fdeebc-dcaa-4db5-9a69-b36b47e40b14)
 
 
-On the Orders page, you can view details of each order by clicking on the "View Details" button.
+To access the specifics of each order, simply click on the "View Details" button located on the Orders page.
 
 ### Updating Order Status
 
-You can update the status of an order to "Shipped" by clicking the "Ship" button.
-
+To mark an order as "Shipped," simply select the "Ship" button.
 ### Order Calender view
 
 ![Screenshot 2024-03-22 154011](https://github.com/SRIRAMRAJESHKUMAR/ERP-SYSTEM-BASED-ON-REACT/assets/148368517/070a030f-c8e2-419a-b577-c2360b26de50)
 
-You can view and display the order with expected delivery date by clicking  a particular date on a calender
-
+To view the order along with its expected delivery date, simply click on a specific date on the calendar.
 
