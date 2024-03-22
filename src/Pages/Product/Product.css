@@ -1,0 +1,42 @@
+.ProductContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.addform{
+    position: absolute;
+    bottom: 20vh;
+    z-index: 2;
+}
+.productHearder{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.addproductlogo{
+    font-size: 20px;
+}
+.AddBtn{
+    padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 5px;
+  background-color: rgb(250, 143, 21);
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+    .productHearder{
+        margin-top: 10vh;
+    }
+    .addform{
+        position: absolute;
+        bottom: 20vh;
+        left: 4vh;
+        z-index: 1;
+    }
+}

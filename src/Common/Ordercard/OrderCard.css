@@ -1,0 +1,99 @@
+.orderCardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 60%;
+}
+.orderCard {
+  display: flex;
+  width: 88%;
+  justify-content: space-between;
+  padding: 20px;
+  height: 20vh;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transition: transform 0.3s ease;
+}
+.orderCard:hover {
+  transform: scale(1.05);
+  background-color: rgb(247, 246, 246);
+}
+.orderCard .first ,.orderCard .sec ,.orderCard .thirdbtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.OrderStatus{
+    color: red;
+}
+.orderCard .thirdbtn .btn ,.btn2 , .btn3{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 15px;
+}
+.orderCard .thirdbtn .btn {
+    background-color: rgb(2, 133, 2);
+    width:  100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+.orderCard .thirdbtn .btn2 {
+    background-color: #1d82e7;
+    width:  100px;
+    height: 30px;
+}
+.orderCard .thirdbtn .btn3 {
+    background-color: #da0c0c;
+    width:  100px;
+    height: 30px;
+}
+.ordercontant{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+@media screen and (max-width: 1054px) {
+  .ordercontant{
+    width: 100%;
+  }
+  .orderCardContainer {
+    width: 80%;
+    margin-left: -10vh;
+  }
+  .orderCard .thirdbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .orderCard .thirdbtn .btn ,.btn2 , .btn3{
+    padding: 0px 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+.orderCard .thirdbtn{
+  width: 100%;
+}
+}
+@media screen and (max-width: 600px) {
+  .orderCardContainer {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .orderCard .first ,.orderCard .sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+  }
+}

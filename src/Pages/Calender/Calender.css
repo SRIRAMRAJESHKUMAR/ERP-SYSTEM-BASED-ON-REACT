@@ -1,0 +1,115 @@
+.app {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .calendar-container {
+    margin-top: 20px;
+  }
+  
+  .react-calendar {
+    width: 100%;
+    max-width: 300px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .react-calendar__tile {
+    padding: 0.5em;
+  }
+  
+  .react-calendar__tile--active {
+    background: #007bff;
+    color: #fff;
+  }
+  
+  .react-calendar__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #007bff;
+    color: #fff;
+    border-radius: 8px 8px 0 0;
+    padding: 10px;
+  }
+  
+  .react-calendar__navigation__label {
+    font-size: 1.2em;
+  }
+  
+  .react-calendar__navigation button {
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .react-calendar__navigation button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .react-calendar__month-view__days__day--weekend {
+    color: #d9534f;
+  }
+  
+  .react-calendar__month-view__days__day--neighboringMonth {
+    color: #aaa;
+  }
+  
+  .react-calendar__month-view__days__day--neighboringMonth .react-calendar__tile {
+    pointer-events: none;
+  }
+  .noOrder,.satus{
+    margin-top: 20vh;
+    color: red;
+  }
+  .CalenderTitle{
+    margin: 20px;
+  }
+.CalenderCard{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 50%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 15vh;
+}  
+.flexContainer{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.wholeCalender{
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+   .flexContainer, .CalenderCard{
+        width: 100%;
+        margin-top: 0vh;
+    }
+    .wholeCalender{
+        margin-top: 10vh;
+    }
+}

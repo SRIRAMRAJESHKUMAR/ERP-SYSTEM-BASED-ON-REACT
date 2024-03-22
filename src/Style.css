@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Dash-Container{
+    display: flex;
+    justify-content: center;
+    background: hsl(210, 81%, 51%);
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.router-container{
+    width: 100%;
+    margin-left: 33vh;
+    margin-top: 11vh;
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 600px) {
+    .router-container{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}
